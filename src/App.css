@@ -4,7 +4,9 @@
 
 /* For desktop: */
 
-
+.box.col-6 {
+  height: 630px;
+}
 .col-6 {width: 49.4%;}
 
 
@@ -88,3 +90,4 @@ button {
   background-color: #eb2f96;
   color: white;
 }
+
