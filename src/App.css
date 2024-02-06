@@ -66,9 +66,9 @@ img {
   margin-bottom: 10px;
 }
 .content {
-  padding: 84px;
-  margin: 17px;
-  text-align: center;
+  
+  margin: 2px;
+ 
   font-size: 33px;
   box-shadow: 0 0 2px black;
 }
@@ -77,7 +77,7 @@ h2 {
   font-weight: unset;
 }
 .instructions{
-  height: 384px;
+  height: 283px;
   overflow-y: auto; 
   border: 1px solid #ccc; 
   padding: 10px; 
@@ -91,3 +91,48 @@ button {
   color: white;
 }
 
+/* styles.css */
+body {
+  font-family: sans-serif;
+}
+
+form {
+  width: 356px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 23%;
+  border-radius: 14px;
+  box-shadow: 0 0 5px #8080808f;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 180px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.div {
+  box-shadow: 0 0 3px;
+  padding: 11px;
+}
