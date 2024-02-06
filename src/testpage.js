@@ -28,8 +28,10 @@ const TestHome = () => {
             <div className='rows'>
 
                 <div className='box col-6'>
-                    <div className='heading'>Hello {userName}</div>
-                    <div className='content'>Welcome to {examName} Test</div>
+                    <div className='div'>
+                    <div className='content'>{examName} </div>
+                    <h2>{Heading}</h2>
+                    <div className='instructions'>{instructions}</div>
                     <table className='table tab1'>
                         <tr>
                             <td>Questions</td>
@@ -41,10 +43,28 @@ const TestHome = () => {
                         </tr>
                     </table>
                 </div>
+                </div>
                 <div className='box col-6'>
-                    <h2>{Heading}</h2>
-                    <div className='instructions'>{instructions}</div>
-                    <button>Continue</button>
+                  <center> 
+                    <form>
+    <div class="form-group">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username"/>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"/>
+    </div>
+    <div class="form-group">
+      <label for="college">College:</label>
+      <input type="text" id="college" name="college"/>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+                   
+                    </center>
+                   
+                   
                 </div>
             </div>
 
